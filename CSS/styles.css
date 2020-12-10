@@ -1,0 +1,275 @@
+body    {
+    margin:0;
+    font-family: 'Spartan', sans-serif;
+}
+
+.ratings-list ul{
+    background-color:  hsl(300, 24%, 96%);
+    border-style: none;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    padding:3%
+    
+}
+/*-----------------Background-------------------------------------*/
+
+.top-background {
+    position: absolute;
+}
+
+.bottom-background   {
+position: absolute;
+}
+
+
+/*-----------------------Top container----------------------------*/
+
+.first-row-first-box    {
+    font-family: "spartan",sans-serif;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    text-align: left;
+    display: flex;
+    padding: 3% 0;
+}
+
+.great-products {
+    color: hsl(300, 43%, 22%);
+    text-align: left;
+    font-family: "spartan",sans-serif;
+    font-weight: 400;
+}
+#top-container  {
+    padding: 5% 14%;
+    position: relative;
+    bottom:30px;
+}
+
+.ratings-list{
+    position: relative;
+    margin-top: 30px;
+}
+
+.child-one    {
+    padding: 15%;
+    position:relative;
+}
+
+.child-two  {
+    padding:15%;
+    padding-right: 8%;
+    position: relative;
+}
+
+.child-three    {
+    padding: 15%;
+    position: relative;
+}
+
+.list-one   {
+   box-sizing: border-box;
+   border-style: none;
+   border-radius: 10%;
+   text-align: right;
+   position: relative;
+   padding: 15px 0 13px;
+}
+
+.list-two   {
+    box-sizing: border-box;
+   border-style: none;
+   border-radius: 10%;
+   text-align: right;
+   position:relative;
+   left: 40px;
+}
+
+.list-three {
+    box-sizing: border-box;
+    border-style: none;
+    border-radius: 10%;
+    text-align: right;
+    position: relative;
+    left: 80px;
+}
+/*----------------------Bottom Container--------------------------*/
+
+#bottom-container   {
+
+    padding-left: 15%;
+    position: relative;
+    bottom: 60px;
+    text-align: left;
+    color: white ;
+}
+.buyer  {
+    border-style: none;
+    border-radius: 50%;
+    float: left;
+    height:50px
+    }
+
+.colton header {
+    font-family: 'spartan', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left:10px;
+    position: relative;
+    left: 20px;
+}
+.colton span    {
+    color:hsl(333, 80%, 67%);
+    font-family: 'spartan', sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 20px;
+}
+
+.colton-review {
+    font-family: 'spartan', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+}
+
+.colton {
+    border-radius: 3%;
+    border-style: none;
+    box-sizing: border-box;
+    background-color: hsl(300, 43%, 22%);
+    position: relative;
+    height: 250px;
+    width: 380px;
+    padding: 3% 2% 0 2%;
+}
+
+.irene  {
+    border-radius: 3%;
+    border-style: none;
+    box-sizing: border-box;
+    background-color: hsl(300, 43%, 22%);
+    position: relative;
+    height: 250px;
+    width: 380px;
+    left: 40px;
+    top: 20px;
+    padding: 3% 2% 0 2%;
+}
+
+.irene header {
+    font-family: 'spartan', sans-serif;
+    font-weight: 700;
+    font-size: 1rem; 
+    position: relative;
+    left: 20px;
+}
+.irene span    {
+    color:hsl(333, 80%, 67%);
+    font-family: 'spartan', sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 20px;
+}
+.irene-review {
+        font-family: 'spartan', sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        position: relative;
+        top: 20px;
+}
+
+.anne   {
+    border-radius: 3%;
+    border-style: none;
+    box-sizing: border-box;
+    background-color: hsl(300, 43%, 22%);
+    position: relative;
+    height: 250px;
+    width: 380px;
+    left: 80px;
+    top:40px;
+    padding: 3% 2% 0 2%;
+}
+
+.anne header {
+    font-family: 'spartan', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    position: relative;
+    left: 20px;
+}
+.anne span    {
+    color:hsl(333, 80%, 67%);
+    font-family: 'spartan', sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 20px;
+}
+.anne-review {
+        font-family: 'spartan', sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        position: relative;
+        top: 20px;
+}
+
+
+@media  (max-width: 600px)  {
+
+    body{
+        background-color:white;
+        margin:0
+        
+    }
+
+    .first-row-first-box    {
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .great-products {
+        text-align: center;
+    }
+
+    .ratings-list{
+        position:relative;
+    }
+    .list-one   {
+        position:relative;
+        bottom: 30px;
+       left:10px;
+    }
+
+    .list-two   {
+        position: relative;
+        bottom:30px;
+        left:10px;
+
+        
+    }
+
+    .list-three{
+        position: relative;
+        left:10px;
+        bottom:30px;
+    }
+    
+    .colton{
+        position: relative;
+        left:10px
+    }
+
+    .irene  {
+        position: relative;
+        left:10px;
+    }
+    
+    .anne   {
+        position: relative;
+        left: 10px;
+    }
+}
